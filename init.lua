@@ -121,6 +121,9 @@ end)
 -- Enable break indent
 vim.o.breakindent = true
 
+-- Tabs
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
 -- Save undo history
 vim.o.undofile = true
 
@@ -684,6 +687,7 @@ require('lazy').setup({
         -- ts_ls = {},
         --
 
+        qmlls = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
